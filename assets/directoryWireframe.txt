@@ -1,0 +1,188 @@
+Directory Wireframs
+
+gregsgrub
+|   .htaccess
+|   404page.php
+|   about.php
+|   comments.php
+|   directions_page.php
+|   faq_page.php
+|   index.php
+|   login_page.php
+|   logout.php
+|   menu_main.php
+|   merch.php
+|   mission.php
+|   non_user.php
+|   not_empl.php
+|   product_details.php
+|   promotions.php
+|   register.php
+|   search_results.php
+|   
++---admin
+|       add_admin_form.php
+|       add_comment.php
+|       add_coupon_form.php
+|       add_customer_form.php
+|       add_employee_form.php
+|       add_faq_form.php
+|       add_image_form.php
+|       add_product_form.php
+|       admin_main.php
+|       all_orders.php
+|       ban_comment.php
+|       change_password_form.php
+|       confirm_delete_coupon.php
+|       confirm_delete_faq.php
+|       confirm_delete_product.php
+|       edit_admin_form.php
+|       edit_coupon.php
+|       edit_customer_form.php
+|       edit_employee_form.php
+|       edit_faq.php
+|       edit_image.php
+|       edit_product_form.php
+|       edit_profile.php
+|       index.php
+|       manage_info.php
+|       manage_products.php
+|       manage_users.php
+|       order_details.php
+|       
++---assets
+|   |   directoryWireframe.txt
+|   |   styleGuide.psd
+|   |   
+|   \---Original Unedited Artwork
+|           logo1.png
+|           
++---css
+|       bjqs.css
+|       main.css
+|       
++---cust
+|       add_coupon.php
+|       change_address.php
+|       comment_reply.php
+|       confirm_delete_item.php
+|       confirm_delete_order.php
+|       confirm_order.php
+|       edit_image.php
+|       edit_profile.php
+|       index.php
+|       new_comment.php
+|       new_order.php
+|       order_details.php
+|       order_page.php
+|       prev_comments.php
+|       process_order.php
+|       view_cart.php
+|       
++---emp
+|       carry_out.php
+|       cash_out.php
+|       completed_orders.php
+|       delivery.php
+|       delivery_driver.php
+|       edit_image.php
+|       edit_profile.php
+|       emp_main.php
+|       index.php
+|       orders_page.php
+|       order_details.php
+|       update_status.php
+|       
++---fonts
+|       accid.ttf
+|       inglobal.ttf
+|       
++---images
+|   |   background1.jpg
+|   |   background5.jpg
+|   |   default2.jpg
+|   |   facebook.jpg
+|   |   food_collage.jpg
+|   |   google.jpg
+|   |   logo1.png
+|   |   marker3.png
+|   |   marker4.png
+|   |   next.png
+|   |   prev.png
+|   |   Twitter.png
+|   |   
+|   +---products
+|   |       chicken.jpg
+|   |       p1.jpg
+|   |       p12.jpg
+|   |       p15.jpg
+|   |       p16.jpg
+|   |       p17.jpg
+|   |       p18.jpg
+|   |       p19.jpg
+|   |       p2.jpg
+|   |       p20.jpg
+|   |       p23.jpg
+|   |       p24.jpg
+|   |       p25.jpg
+|   |       p26.jpg
+|   |       p27.jpg
+|   |       p28.jpg
+|   |       p4.jpg
+|   |       p5.jpg
+|   |       p6.jpg
+|   |       pizza.jpg
+|   |       shrimp.jpg
+|   |       steak.jpg
+|   |       
+|   \---profiles
+|           a34.jpg
+|           a67.jpg
+|           c56.jpg
+|           c64.jpg
+|           c75.jpg
+|           e30.jpg
+|           e76.jpg
+|           
++---js
+|       bjqs-1.3.js
+|       gregsgrub.js
+|       jquery-1.11.1.js
+|       
++---model
+|       admin_functions.php
+|       database.php
+|       employee_functions.php
+|       general_functions.php
+|       image_upload_functions.php
+|       login_functions.php
+|       
++---plugin
+|   |   jquery-ui.css
+|   |   jquery-ui.js
+|   |   
+|   \---images
+|           ui-bg_diagonals-thick_90_eeeeee_40x40.png
+|           ui-bg_flat_15_cd0a0a_40x100.png
+|           ui-bg_glass_100_e4f1fb_1x400.png
+|           ui-bg_glass_50_3baae3_1x400.png
+|           ui-bg_glass_80_d7ebf9_1x400.png
+|           ui-bg_highlight-hard_100_f2f5f7_1x100.png
+|           ui-bg_highlight-hard_70_000000_1x100.png
+|           ui-bg_highlight-soft_100_deedf7_1x100.png
+|           ui-bg_highlight-soft_25_ffef8f_1x100.png
+|           ui-icons_2694e8_256x240.png
+|           ui-icons_2e83ff_256x240.png
+|           ui-icons_3d80b3_256x240.png
+|           ui-icons_72a7cf_256x240.png
+|           ui-icons_ffffff_256x240.png
+|           
+\---view
+        admin_footer.php
+        admin_header.php
+        cust_header.php
+        emp_footer.php
+        emp_header.php
+        footer.php
+        header.php
+        

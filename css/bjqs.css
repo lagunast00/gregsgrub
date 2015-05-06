@@ -1,0 +1,100 @@
+/*
+**** Author: Matthew Battyanyi
+**** Revision Date: 5-5-15
+**** File Name: css/bjqs.css
+**** Description: Image slider styleguide
+*/
+
+@font-face {
+	font-family: accidentalPresident;
+	src: url(../fonts/accid.ttf);
+}
+
+@font-face {
+	font-family: inglobal;
+	src: url(../fonts/inglobal.ttf);
+}
+
+ul.bjqs{position:relative; 
+	list-style:none;
+	padding:0;
+	margin:0;
+	overflow:hidden; 
+	display:none; 
+	border: 2px solid black;
+	border-radius: 5px;
+	box-shadow: 5px 5px 10px black;
+}
+li.bjqs-slide{position:absolute; display:none;}
+ul.bjqs-controls{list-style:none;margin:0;padding:0;z-index:9999;}
+ul.bjqs-controls.v-centered li a{position:absolute;}
+ul.bjqs-controls.v-centered li.bjqs-next a{
+	text-indent: -9999px;
+	background: url('../images/next.png') no-repeat center center;
+	background-size: 30px 30px;
+	display: block;
+	height: 30px;
+	width: 30px;
+	right: -9px;
+}
+ul.bjqs-controls.v-centered li.bjqs-prev a{
+	text-indent: -9999px;
+	background: url('../images/prev.png') no-repeat center center;
+	background-size: 30px 30px;
+	display: block;
+	height: 30px;
+	width: 30px;
+	left: -5px;
+}
+ol.bjqs-markers{list-style: none; padding: 0; margin: 0; width:100%;}
+ol.bjqs-markers.h-centered{text-align: center;}
+ol.bjqs-markers li a.marker_container {
+	display: block;
+	width: 11px;
+	height: 11px;
+	margin-top: 10px;
+	padding: 0 5px;
+	cursor: pointer;
+}
+ol.bjqs-markers li a.marker_container {
+	background: url('../images/marker3.png') no-repeat center;
+	z-index: 10;
+}
+
+ol.bjqs-markers li.active-marker a {
+	background: url('../images/marker4.png') no-repeat center;
+	z-index: 15;
+}
+ol.bjqs-markers li {display:inline-block;}
+p.bjqs-caption{
+	display: block;
+	width: 96%;
+	margin: 0;
+	padding: 2%;
+	position: absolute;
+	bottom: 10px;
+	background: rgba(255,82,61,.7);
+	border-top: 1px solid rgba(0,0,0,.7);
+	border-bottom: 1px solid rgba(0,0,0,.7);
+	text-shadow: 1px 1px 1px black, -1px 1px 1px black, 1px -1px 1px black, -1px -1px 1px black;
+	color: #FFFFFF;
+	font: 12px inglobal, sans-serif;
+}
+p.bjqs-captionTitle{
+	display: block;
+	width: 98%;
+	margin: 0;
+	padding: 1%;
+	position: absolute;
+	top: 0;
+	background: rgba(0,0,0,.7);
+	color: #FFFFFF;
+	font: 20px accidentalPresident, sans-serif;
+	text-align: center;
+}
+p.bjqs-caption span.price {
+	display: block;
+	width: 100%;
+	text-align: right;
+	font-size: 14px;
+}
